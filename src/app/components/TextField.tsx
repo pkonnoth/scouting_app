@@ -7,7 +7,7 @@ interface TextFieldProps {
   id: string;
   placeholder: string;
   value?: string;
-  inputMode?: string; // Add inputMode as an optional prop
+  inputMode?: 'search' | 'text' | 'email' | 'tel' | 'url' | 'numeric' | 'none' | 'decimal'; // Set specific types for inputMode
   pattern?: string;
   onChange?: (value: string) => void;
 }
