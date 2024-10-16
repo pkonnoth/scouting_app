@@ -2,10 +2,6 @@
 
 import TeamsSelection from '../components/TeamsSelection';
 
-interface Team {
-  number: string;
-  name: string;
-}
 
 interface TeamsPageProps {
   searchParams: {
