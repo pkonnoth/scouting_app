@@ -1,15 +1,12 @@
-/** @type {import('next').NextConfig} */
-const nextConfig = {
-    async redirects() {
-      return [
-        {
-          source: '/', // Match the root URL
-          destination: '/onboarding', // Redirect to the onboarding page
-          permanent: true, // This is a permanent redirect (301)
-        },
-      ];
-    },
-  };
-  
-  export default nextConfig;
-  
+// next.config.mjs
+export default {
+  async redirects() {
+    return [
+      {
+        source: '/',
+        destination: '/setup', // Redirect root to setup page
+        permanent: true,
+      },
+    ];
+  },
+};

@@ -17,6 +17,7 @@
 body {
   color: var(--foreground);
   background: var(--background);
+  background-color: black;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -25,3 +26,15 @@ body {
     text-wrap: balance;
   }
 }
+
+.teamBox {
+  width: 100%;           /* Full width */
+  max-width: 350px;      /* Limit the max width */
+  height: 80px;          /* Uniform height */
+  border-radius: 8px;    /* Rounded corners */
+  padding: 16px;         /* Padding */
+  display: flex;         /* Flex for alignment */
+  align-items: center;   /* Center content vertically */
+  justify-content: center; /* Center content horizontally */
+}
+
